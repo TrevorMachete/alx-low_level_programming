@@ -1,2 +1,2 @@
 #!/bin/bash
-CFILE="$CFILE"; OFILE="${CFILE%.c}.s"; gcc -S -masm=intel "$CFILE" -o "$OFILE"
+gcc -E "$CFILE" -o c
