@@ -1,3 +1,2 @@
 #!/bin/bash
-CFILE="100-main.c"
-gcc -E $CFILE -o output.i
+CFILE="100-main.c" gcc -E $CFILE -o output.i
