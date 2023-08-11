@@ -1,2 +1,10 @@
 #!/bin/bash
-CFILE="$CFILE" OFILE="${CFILE%.c}.s" gcc -S -masm=intel "$CFILE" -o "$OFILE"
+
+# Get the C file name from the variable $CFILE
+CFILE="$CFILE"
+
+# Get the output file name by replacing the .c extension with .s
+OFILE="${CFILE%.c}.s"
+
+# Generate the assembly code using the gcc compiler with the -S and -masm=intel options
+gcc -S -masm=intel "$CFILE" -o "$OFILE"
