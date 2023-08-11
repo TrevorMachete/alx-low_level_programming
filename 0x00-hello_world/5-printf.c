@@ -2,6 +2,8 @@
 
 /**
  *  main - entry of the programme
+ *
+ * printf - prints output to screen
  */
 int main(void)
 {
