@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-/*
- *main-entry of the programme
+/**
+ *  main - entry of the programme
  */
 int main(void)
 {
